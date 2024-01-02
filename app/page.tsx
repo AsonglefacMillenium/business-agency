@@ -1,9 +1,10 @@
+import { Text } from '@/components/atoms'
 import Image from 'next/image'
 
 export default function Home() {
   return (
    <main>
-    <h1>Hello world</h1>
+    <Text color='red' fontSize='Xlarge' fontWeight='bold' text='Hello world' />
    </main>
   )
 }
