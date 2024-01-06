@@ -1,0 +1,4 @@
+interface IServiceProps {
+    text: string 
+    
+}
