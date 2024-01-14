@@ -12,7 +12,7 @@ import React from "react";
 
 const HiroSection = () => {
   return (
-    <div className="w-full bg-[#000] pt-[23px] pb-[89px]">
+    <div className="w-full bg-[#0C0C0C] pt-[23px] pb-[89px]">
       <div className="w-[80%] mx-auto">
         <Header />
 
