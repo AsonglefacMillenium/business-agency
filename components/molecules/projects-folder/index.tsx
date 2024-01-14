@@ -11,7 +11,7 @@ const ProjectsCard = ({ ...props }: ProjectsCardProps) => {
 
       <div className="w-full  flex flex-col gap-2">
         <Text text={props.title} color="" fontSize={"Xlarge"} fontWeight={"bold"} />
-        <Text text={props.text} color="" fontSize={"normal"} fontWeight={"500"} />
+        <Text text={props.text} color="" fontSize={"normal"} fontWeight={"400"} />
       </div>
     </div>
   );

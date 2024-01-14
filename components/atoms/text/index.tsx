@@ -82,6 +82,19 @@ const Text = ({ ...props }: ITextProps) => {
         </p>
       );
 
+      case "XXlarge":
+      return (
+        <p
+          className="text-7xl"
+          style={{
+            fontWeight: props.fontWeight,
+            color: props.color,
+          }}
+        >
+          {props.text}
+        </p>
+      );
+
     default:
       break;
   }
