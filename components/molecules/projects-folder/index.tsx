@@ -4,9 +4,9 @@ import React from "react";
 
 const ProjectsCard = ({ ...props }: ProjectsCardProps) => {
   return (
-    <div className="flex flex-col w-[442px] gap-4 h-fit">
+    <div className="flex flex-col w-[664px] gap-4 h-fit">
       <div className="w-full h-[450px] rounded-xl">
-        <Image width={10}  height={20} src={props.image} alt="" className="w-full h-[450px] rounded-xl" />
+        <img src={props.image} alt="" className="w-full h-[450px] rounded-xl" />
       </div>
 
       <div className="w-full  flex flex-col gap-2">

@@ -1,4 +1,4 @@
-import { HiroSection, ProcessSection, ServicesSection } from "@/components/templates";
+import { HiroSection, ProcessSection, ServicesSection, ShowcaseSection } from "@/components/templates";
 import React from "react";
 
 const HomeScreen = () => {
@@ -7,6 +7,7 @@ const HomeScreen = () => {
       <HiroSection />
       <ServicesSection />
       <ProcessSection />
+      <ShowcaseSection />
     </div>
   );
 };
