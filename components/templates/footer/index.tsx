@@ -2,6 +2,12 @@ import { Text } from "@/components/atoms";
 import React from "react";
 import { pageData, utilityPageData } from "./footer.data";
 import Link from "next/link";
+import { SearchBox } from "@/components/molecules";
+import {
+  FacebookIcon,
+  InstagramIcon,
+  LinkedinIcon,
+} from "@/components/atoms/icons";
 
 const Footer = () => {
   return (
@@ -35,7 +41,7 @@ const Footer = () => {
             <div className="flex flex-col gap-[16px]">
               {pageData.map((data) => (
                 <Link href={data.route}>
-                   <Text
+                  <Text
                     text={data.text}
                     color="#F4F4F4"
                     fontSize={"small"}
@@ -68,15 +74,33 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-[19px] w-[20%]">
-          <Text
-                    text="Subscribe"
-                    color="#F4F4F4"
-                    fontSize={"large"}
-                    fontWeight={"bold"}
-                  />
-
+          <div className="flex flex-col gap-[19px] w-[25%]">
+            <Text
+              text="Subscribe"
+              color="#F4F4F4"
+              fontSize={"large"}
+              fontWeight={"bold"}
+            />
+            <SearchBox />
           </div>
+        </div>
+
+        <div className="w-full flex flex-col gap-[24px] items-center">
+          <div className="w-fit flex gap-[29px]">
+            <div className="bg-[#FBFBFB] w-[50px] h-[50px] flex items-center justify-center rounded-[100%] cursor-pointer">
+              <FacebookIcon />
+            </div>
+
+            <div className="bg-[#FBFBFB] w-[50px] h-[50px] flex items-center justify-center rounded-[100%] cursor-pointer">
+              <InstagramIcon />
+            </div>
+
+            <div className="bg-[#FBFBFB] w-[50px] h-[50px] flex items-center justify-center rounded-[100%] cursor-pointer">
+              <LinkedinIcon />
+            </div>
+          </div>
+
+         
         </div>
       </div>
     </div>
