@@ -7,12 +7,12 @@ import { Text } from "@/components/atoms";
 const AboutLander = () => {
   return (
     <div className="w-full py-[100px] bg-[#fff]">
-      <div className="w-[80%] mx-auto  bg-[#0C0C0C] pl-12 pt-[82px] flex flex-row-reverse rounded-2xl justify-between items-start">
+      <div className="w-[70%] mx-auto  bg-[#0C0C0C] pl-12 pt-[82px] flex flex-row-reverse rounded-2xl justify-between items-start">
         <div className="w-[45%] mb-[-60px] z-2">
           <img src="/images/mission.png" />
         </div>
 
-        <div className="w-[45%] flex flex-col gap-8 pl-8 pt-[82px]">
+        <div className="w-[50%] flex flex-col gap-8 ">
           <div className="w-full gap-[25px] flex flex-col">
             <Text
               color="#64CCC5"

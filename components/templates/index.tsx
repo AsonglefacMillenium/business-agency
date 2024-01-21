@@ -9,3 +9,4 @@ export { default as PortfolioShowcaseSection } from "./portfolio-showcase";
 export { default as PortfolioLander } from "./portfolio-lander";
 export { default as PortfolioWork } from "./portfolio-work";
 export { default as AboutLander} from "./about-lander"
+export { default as StatsSection} from "./stats-section"
