@@ -15,7 +15,7 @@ const Header = () => {
         />
       </div>
       <div className="flex gap-[30px]">
-        <Link href={""}>
+        <Link href={"/"}>
           <Text
             color="#FBFBFB"
             text="Home"
@@ -24,7 +24,7 @@ const Header = () => {
           />
         </Link>
 
-        <Link href={""}>
+        <Link href={"/about"}>
           <Text
             color="#FBFBFB"
             text="About"
@@ -33,7 +33,7 @@ const Header = () => {
           />
         </Link>
 
-        <Link href={""}>
+        <Link href={"/contact"}>
           <Text
             color="#FBFBFB"
             text="Contact Us"
