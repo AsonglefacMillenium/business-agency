@@ -1,5 +1,5 @@
 import { Header2 } from "@/components/organisms";
-import { AboutLander, Footer, PortfolioLander, PortfolioShowcaseSection, PortfolioWork, StatsSection } from "@/components/templates";
+import { AboutLander, Footer, PortfolioLander, PortfolioShowcaseSection, PortfolioWork, StatsSection, TeamSection } from "@/components/templates";
 import React from "react";
 
 const AboutScreen = () => {
@@ -8,6 +8,7 @@ const AboutScreen = () => {
       <Header2 />
       <AboutLander />
       <StatsSection />
+      <TeamSection />
       <PortfolioWork />
       <Footer />
     </div>
