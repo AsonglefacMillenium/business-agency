@@ -1,4 +1,5 @@
 import { Text } from "@/components/atoms";
+import { TeamCard } from "@/components/organisms";
 import React from "react";
 
 const TeamSection = () => {
@@ -14,7 +15,9 @@ const TeamSection = () => {
           />
         </div>
 
-        <div className="w-full flex items-center justify-between"></div>
+        <div className="w-full flex items-center justify-between">
+            <TeamCard title="" text="" image="" />
+        </div>
       </div>
     </div>
   );
