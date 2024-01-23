@@ -16,7 +16,9 @@ const TeamSection = () => {
         </div>
 
         <div className="w-full flex items-center justify-between">
-            <TeamCard title="" text="" image="" />
+            <TeamCard title="Esther Howards" text="Founder & CEO" image="/images/image1.jpeg" />
+            <TeamCard title="Esther Howards" text="Founder & CEO" image="/images/image1.jpeg" />
+            <TeamCard title="Esther Howards" text="Founder & CEO" image="/images/image1.jpeg" />
         </div>
       </div>
     </div>
