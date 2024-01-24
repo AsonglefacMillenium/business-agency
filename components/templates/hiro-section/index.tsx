@@ -72,12 +72,12 @@ const HiroSection = () => {
           </div>
 
           <div className="w-[60%]">
-            <img
+            <Image
               className="w-full"
               src={"/images/hiro_image.png"}
               alt=""
-              width={200}
-              height={200}
+              width={500}
+              height={500}
             />
           </div>
         </div>

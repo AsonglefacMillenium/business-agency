@@ -3,13 +3,14 @@ import React from "react";
 import MissionImage from "/images/mission.png";
 import { Button } from "@/components/molecules";
 import { Text } from "@/components/atoms";
+import Image from "next/image";
 
 const MissionSection = () => {
   return (
     <div className="w-full py-[100px] bg-[#0C0C0C]">
       <div className="w-[80%] mx-auto flex justify-between items-center">
         <div className="w-[45%]">
-          <img src="/images/mission.png" />
+          <Image alt="" width={500} height={500} src="/images/mission.png" className="w-full"/>
         </div>
 
         <div className="w-[45%] flex flex-col gap-8">

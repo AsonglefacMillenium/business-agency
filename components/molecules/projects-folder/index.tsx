@@ -6,7 +6,7 @@ const ProjectsCard = ({ ...props }: ProjectsCardProps) => {
   return (
     <div className="flex flex-col w-[664px] gap-4 h-fit">
       <div className="w-full h-[450px] rounded-xl">
-        <img src={props.image} alt="" className="w-full h-[450px] rounded-xl" />
+        <Image width={500} height={500} src={props.image} alt="" className="w-full h-[450px] rounded-xl" />
       </div>
 
       <div className="w-full  flex flex-col gap-2">

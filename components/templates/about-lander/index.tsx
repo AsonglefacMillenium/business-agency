@@ -3,13 +3,14 @@ import React from "react";
 
 import { Button } from "@/components/molecules";
 import { Text } from "@/components/atoms";
+import Image from "next/image";
 
 const AboutLander = () => {
   return (
     <div className="w-full py-[100px] bg-[#fff]">
       <div className="w-[70%] mx-auto  bg-[#0C0C0C] pl-12 pt-[82px] flex flex-row-reverse rounded-2xl justify-between items-start">
         <div className="w-[45%] mb-[-60px] z-2">
-          <img src="/images/mission.png" />
+          <Image width={500} height={500} alt="" src="/images/mission.png" className="w-full"/>
         </div>
 
         <div className="w-[50%] flex flex-col gap-8 ">

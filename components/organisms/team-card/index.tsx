@@ -1,12 +1,13 @@
 import { Text } from "@/components/atoms";
 import { FacebookIcon, InstagramIcon, LinkedinIcon } from "@/components/atoms/icons";
+import Image from "next/image";
 import React from "react";
 
 const TeamCard = ({ ...props }: TeamCardProps) => {
   return (
     <div className="flex flex-col w-[419px] gap-[16px] h-fit relative cursor-pointer">
       <div className="w-full h-[450px] rounded-xl">
-        <img src={props.image} alt="" className="w-full h-[450px] rounded-xl" />
+        <Image width={500} height={500} src={props.image} alt="" className="w-full h-[450px] rounded-xl" />
       </div>
 
       <div className="w-full  flex flex-col gap-[10px]">

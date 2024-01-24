@@ -40,7 +40,7 @@ const Footer = () => {
 
             <div className="flex flex-col gap-[16px]">
               {pageData.map((data) => (
-                <Link href={data.route}>
+                <Link href={data.route} key={data.text}>
                   <Text
                     text={data.text}
                     color="#F4F4F4"
@@ -62,7 +62,7 @@ const Footer = () => {
 
             <div className="flex flex-col gap-[16px]">
               {utilityPageData.map((data) => (
-                <Link href={data.route}>
+                <Link href={data.route} key={data.text}>
                   <Text
                     text={data.text}
                     color="#F4F4F4"
