@@ -11,3 +11,4 @@ export { default as PortfolioWork } from "./portfolio-work";
 export { default as AboutLander} from "./about-lander"
 export { default as StatsSection} from "./stats-section"
 export { default as TeamSection } from "./team-section"
+export { default as DetailsLander} from "./details-lander"
