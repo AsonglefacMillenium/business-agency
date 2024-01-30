@@ -14,3 +14,4 @@ export { default as TeamSection } from "./team-section";
 export { default as DetailsLander } from "./details-lander";
 export { default as RecentSection } from "./recent-section";
 export { default as DetailsImageSection } from "./details-image-section";
+export { default as DetailsContentSection } from "./details-content-section";
