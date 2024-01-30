@@ -1,0 +1,3 @@
+interface DetailsImageCardProps {
+  image: string;
+}
