@@ -8,8 +8,9 @@ export { default as MissionSection } from "./mission-section";
 export { default as PortfolioShowcaseSection } from "./portfolio-showcase";
 export { default as PortfolioLander } from "./portfolio-lander";
 export { default as PortfolioWork } from "./portfolio-work";
-export { default as AboutLander} from "./about-lander"
-export { default as StatsSection} from "./stats-section"
-export { default as TeamSection } from "./team-section"
-export { default as DetailsLander} from "./details-lander"
-export { default as RecentSection} from "./recent-section"
+export { default as AboutLander } from "./about-lander";
+export { default as StatsSection } from "./stats-section";
+export { default as TeamSection } from "./team-section";
+export { default as DetailsLander } from "./details-lander";
+export { default as RecentSection } from "./recent-section";
+export { default as DetailsImageSection } from "./details-image-section";

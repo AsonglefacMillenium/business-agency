@@ -5,7 +5,7 @@ import React from "react";
 const DetailsImageCard = ({ ...props }: DetailsImageCardProps) => {
   return (
     <div className="flex flex-col w-[417px] gap-4 h-fit">
-      <div className="w-full h-[490px] rounded-xl">
+      <div className="w-full h-[400px] rounded-xl">
         <Image
           width={500}
           height={500}
