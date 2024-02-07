@@ -1,5 +1,5 @@
 import { Text } from "@/components/atoms";
-import { EmailIcon } from "@/components/atoms/icons";
+import { EmailIcon, FacebookIcon, InstagramIcon, LinkedinIcon } from "@/components/atoms/icons";
 import ContactItem from "@/components/molecules/contact-item";
 import { ContactForm } from "@/components/organisms";
 import React from "react";
@@ -42,6 +42,20 @@ const ContactSection = () => {
               text="hello@example.com"
               icon={<EmailIcon />}
             />
+          </div>
+
+          <div className="flex gap-8 items-center">
+            <a href="">
+              <FacebookIcon />
+            </a>
+
+            <a href="">
+              <LinkedinIcon />
+            </a>
+
+            <a href="">
+              <InstagramIcon />
+            </a>
           </div>
         </div>
 

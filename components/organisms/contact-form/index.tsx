@@ -25,10 +25,9 @@ const ContactForm = () => {
       <div>
         <Textarea placeholder="Message" />
       </div>
-<div className="w-[50%]">
-<Button text="Submit Now" bgColor="#000" color="#fff"  />
-</div>
-      
+      <div className="w-[50%]">
+        <Button text="Submit Now" bgColor="#000" color="#fff" />
+      </div>
     </div>
   );
 };
