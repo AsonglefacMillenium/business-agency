@@ -3,7 +3,7 @@ import React from "react";
 
 const ContactItem = ({...props}: ContactItemProps) => {
   return (
-    <div className="flex justify-center items-center gap-[26px]">
+    <div className="flex justify-center w-fit items-center gap-[26px]">
       <div className="">{props.icon}</div>
       <div className="flex flex-col gap-[2px]">
         <Text
