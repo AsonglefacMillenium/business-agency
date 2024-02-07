@@ -6,3 +6,5 @@ export { default as SearchBox } from "./search";
 export { default as RecentProjectCard } from "./recent-project-card";
 export { default as DetailsImageCard } from "./details-image-card";
 export { default as DetailsContent } from "./details-content";
+export { default as Input } from "./input";
+export { default as Textarea } from "./input/textarea";

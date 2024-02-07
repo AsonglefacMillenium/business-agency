@@ -1,12 +1,13 @@
 import { Text } from "@/components/atoms";
 import { EmailIcon } from "@/components/atoms/icons";
 import ContactItem from "@/components/molecules/contact-item";
+import { ContactForm } from "@/components/organisms";
 import React from "react";
 
 const ContactSection = () => {
   return (
     <div className="w-full bg-white flex items-center justify-center my-[100px]">
-      <div className="w-[80%] flex items-between ">
+      <div className="w-[80%] flex justify-between ">
         <div className="w-[40%] gap-[40px] flex flex-col">
           <Text
             color="#000000"
@@ -42,6 +43,10 @@ const ContactSection = () => {
               icon={<EmailIcon />}
             />
           </div>
+        </div>
+
+        <div className="w-[50%] p-[45px]">
+          <ContactForm />
         </div>
       </div>
     </div>
