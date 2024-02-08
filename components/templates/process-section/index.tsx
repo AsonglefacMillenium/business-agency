@@ -6,8 +6,8 @@ import React from "react";
 const ProcessSection = () => {
   return (
     <div className="w-full pt-[100px] mb-[93px] bg-white">
-    <div className="w-[80%] mx-auto flex flex-col items-center gap-[80px]">
-      <div className="flex w-[50%] text-center flex-col gap-[24px] items-center">
+    <div className="lg:w-[80%] w-[90%] mx-auto flex flex-col items-center gap-[80px]">
+      <div className="flex lg:w-[50%] w-full text-center flex-col gap-[24px] items-center">
         <Text
           text="Process"
           color="#64CCC5"

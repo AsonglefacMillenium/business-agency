@@ -8,12 +8,12 @@ import Image from "next/image";
 const MissionSection = () => {
   return (
     <div className="w-full py-[100px] bg-[#0C0C0C]">
-      <div className="w-[80%] mx-auto flex justify-between items-center">
-        <div className="w-[45%]">
+      <div className="lg:w-[80%] w-[90%] mx-auto flex lg:justify-between justify-center items-center">
+        <div className="lg:w-[45%] lg:visible invisible">
           <Image alt="" width={500} height={500} src="/images/mission.png" className="w-full"/>
         </div>
 
-        <div className="w-[45%] flex flex-col gap-8">
+        <div className="lg:w-[45%] w-[100%]  flex flex-col gap-8">
           <div className="w-full gap-[25px] flex flex-col">
             <Text
               color="#64CCC5"
@@ -52,7 +52,7 @@ const MissionSection = () => {
                   fontWeight={"400"}
                 />
               </div>
-              <div className="gap-[9px] flex flex-col">
+              <div className="gap-[9px] w-full flex flex-col">
                 <Text
                   color="#64CCC5"
                   text="350 +"
