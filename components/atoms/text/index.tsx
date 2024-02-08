@@ -85,7 +85,7 @@ const Text = ({ ...props }: ITextProps) => {
       case "XXlarge":
       return (
         <p
-          className="text-7xl"
+          className="text-5xl"
           style={{
             fontWeight: props.fontWeight,
             color: props.color,

@@ -13,11 +13,11 @@ import React from "react";
 const HiroSection = () => {
   return (
     <div className="w-full bg-[#0C0C0C] pt-[23px] pb-[89px]">
-      <div className="w-[80%] mx-auto">
+      <div className="lg:w-[80%] w-[90%] mx-auto">
         <Header />
 
         <div className="w-full flex mt-[100px] justify-between items-start">
-          <div className="w-[40%] pt-[200px]">
+          <div className="lg:w-[40%] w-full lg:pt-[200px] pt-[100px]">
             <div className="w-full flex flex-col gap-4">
               <Text
                 text="Ready to take your"
@@ -71,7 +71,7 @@ const HiroSection = () => {
             </div>
           </div>
 
-          <div className="w-[60%]">
+          <div className="lg:w-[60%] lg:visible invisible">
             <Image
               className="w-full"
               src={"/images/hiro_image.png"}

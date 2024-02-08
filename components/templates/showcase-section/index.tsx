@@ -15,7 +15,7 @@ const ShowcaseSection = () => {
           />
         </div>
 
-        <div className="w-fit mx-auto flex flex-wrap gap-[66px]">
+        <div className="w-full mx-auto flex lg:flex-row flex-col flex-wrap gap-[66px]">
           <div className="flex flex-col gap-[50px]">
             <ProjectsCard
               text="Creative  UI design"
