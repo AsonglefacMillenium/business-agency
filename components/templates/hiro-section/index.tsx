@@ -17,7 +17,7 @@ const HiroSection = () => {
         <Header />
 
         <div className="w-full flex mt-[100px] justify-between items-start">
-          <div className="lg:w-[40%] w-full lg:pt-[200px] pt-[100px]">
+          <div className="lg:w-[40%] w-full lg:pt-[200px] ">
             <div className="w-full flex flex-col gap-4">
               <Text
                 text="Ready to take your"

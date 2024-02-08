@@ -9,7 +9,7 @@ import React from "react";
 const TestimonialSection = () => {
   return (
     <div className="w-full bg-white mb-[93px]">
-      <div className="w-[50%] flex flex-col gap-[21px] items-center mx-auto">
+      <div className="lg:w-[50%] w-[90%] flex flex-col gap-[21px] items-center mx-auto">
         <div className="flex flex-col items-center gap-[35px] text-center">
           <div className="w-[100px]">
             <Image alt="" height={500} width={500} src="/images/profile.png" className="w-full" />

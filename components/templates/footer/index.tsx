@@ -12,9 +12,9 @@ import {
 const Footer = () => {
   return (
     <div className="w-full bg-[#0C0C0C] pt-[100px] pb-[60px]">
-      <div className="w-[80%] mx-auto flex flex-col gap-[100px] ">
-        <div className="w-full flex justify-between flex-wrap">
-          <div className="w-[20%] flex flex-col gap-[24px]">
+      <div className="lg:w-[80%] w-[90%] mx-auto flex flex-col gap-[100px] ">
+        <div className="w-full flex flex-col lg:flex-row justify-between flex-wrap">
+          <div className="lg:w-[20%] w-full flex flex-col gap-[24px]">
             <Text
               text="AGENCY"
               color="#fff"
@@ -74,7 +74,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-[19px] w-[25%]">
+          <div className="flex flex-col gap-[19px] w-full lg:w-[25%]">
             <Text
               text="Subscribe"
               color="#F4F4F4"
