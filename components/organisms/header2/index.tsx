@@ -5,7 +5,7 @@ import React from "react";
 
 const Header2 = () => {
   return (
-    <div className="flex justify-between w-[70%] mx-auto">
+    <div className="flex justify-between lg:w-[70%] w-[90%] mx-auto mt-0">
       <div>
         <Text
           text="AGENCY"
@@ -14,7 +14,7 @@ const Header2 = () => {
           fontWeight={"bold"}
         />
       </div>
-      <div className="flex gap-[30px]">
+      <div className="flex gap-[30px] invisible lg:visible">
         <Link href={"/"}>
           <Text
             color="#000"
@@ -43,7 +43,7 @@ const Header2 = () => {
         </Link>
       </div>
 
-      <Link href={""}>
+      <Link href={""} className="invisible lg:visible">
         <Button
           text="Get in touch"
           bgColor="#000"

@@ -4,7 +4,7 @@ import React from "react";
 const StatsSection = () => {
   return (
     <div className="w-full bg-white mt-[100px]">
-      <div className="w-[70%] flex justify-between flex-wrap mx-auto">
+      <div className="w-[80%] flex justify-between flex-wrap mx-auto">
         <StatsCard
           data="200+"
           title="We’re a family"

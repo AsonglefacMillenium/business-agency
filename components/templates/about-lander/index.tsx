@@ -8,12 +8,12 @@ import Image from "next/image";
 const AboutLander = () => {
   return (
     <div className="w-full py-[100px] bg-[#fff]">
-      <div className="w-[70%] mx-auto  bg-[#0C0C0C] pl-12 pt-[82px] flex flex-row-reverse rounded-2xl justify-between items-start">
-        <div className="w-[45%] mb-[-60px] z-2">
+      <div className="lg:w-[80%] w-full mx-auto bg-[#0C0C0C] lg:pl-12 pl-5 pt-[82px] flex flex-row-reverse rounded-2xl justify-between items-start">
+        <div className="lg:w-[45%] lg:flex hidden mb-[-60px] z-2">
           <Image width={500} height={500} alt="" src="/images/mission.png" className="w-full"/>
         </div>
 
-        <div className="w-[50%] flex flex-col gap-8 ">
+        <div className="lg:w-[50%] w-full flex flex-col gap-8 ">
           <div className="w-full gap-[25px] flex flex-col">
             <Text
               color="#64CCC5"
@@ -70,7 +70,7 @@ const AboutLander = () => {
             </div>
           </div>
 
-          <div className="w-[40%]">
+          <div className="lg:w-[40%] w-full">
             <Button
               text="Start your Free Trial"
               color="#000"

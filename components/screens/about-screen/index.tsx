@@ -4,7 +4,7 @@ import React from "react";
 
 const AboutScreen = () => {
   return (
-    <div className="w-full p-0 m-0 pt-[67px]">
+    <div className="w-screen p-0 m-0 lg:pt-[67px] pt-[20px]">
       <Header2 />
       <AboutLander />
       <StatsSection />
