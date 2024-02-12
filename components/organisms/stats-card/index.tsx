@@ -3,7 +3,7 @@ import React from "react";
 
 const StatsCard = ({...props}: StatsCardProps) => {
   return (
-    <div className="w-[422px] p-[45px] flex flex-col gap-[15px] justify-center items-center ">
+    <div className="lg:w-[422px] w-full p-[45px] flex flex-col gap-[15px] justify-center items-center ">
       <Text
         color="#0C0C0C"
         text={props.data}

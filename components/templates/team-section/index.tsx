@@ -5,7 +5,7 @@ import React from "react";
 const TeamSection = () => {
   return (
     <div className="w-full mt-[100px]">
-      <div className="w-[80%] mx-auto flex flex-col items-center gap-[80px]">
+      <div className="lg:w-[80%] md:w-[90%] w-full mx-auto flex flex-col items-center gap-[80px]">
         <div className="text-center w-fit">
           <Text
             text="Our team"

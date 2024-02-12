@@ -8,7 +8,7 @@ import Image from "next/image";
 const AboutLander = () => {
   return (
     <div className="w-full py-[100px] bg-[#fff]">
-      <div className="lg:w-[80%] w-full mx-auto bg-[#0C0C0C] lg:pl-12 pl-5 pt-[82px] flex flex-row-reverse rounded-2xl justify-between items-start">
+      <div className="lg:w-[80%] w-full mx-auto bg-[#0C0C0C] lg:pl-12 pl-5 lg:pt-[82px] py-10 flex flex-row-reverse rounded-2xl justify-between items-start">
         <div className="lg:w-[45%] lg:flex hidden mb-[-60px] z-2">
           <Image width={500} height={500} alt="" src="/images/mission.png" className="w-full"/>
         </div>

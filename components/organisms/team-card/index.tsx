@@ -5,7 +5,7 @@ import React from "react";
 
 const TeamCard = ({ ...props }: TeamCardProps) => {
   return (
-    <div className="flex flex-col lg:w-[419px]  w-full gap-[16px] h-fit relative cursor-pointer">
+    <div className="flex flex-col lg:w-[419px]  w-[90%] mb-10 gap-[16px] h-fit relative cursor-pointer">
       <div className="w-full h-[450px] rounded-xl">
         <Image width={500} height={500} src={props.image} alt="" className="w-full h-[450px] rounded-xl" />
       </div>
