@@ -5,7 +5,7 @@ import React from "react";
 
 const Header2 = () => {
   return (
-    <div className="flex justify-between lg:w-[70%] w-[90%] mx-auto mt-0">
+    <div className="flex justify-between lg:w-[80%] w-[90%] mx-auto mt-0">
       <div>
         <Text
           text="AGENCY"

@@ -3,7 +3,7 @@ import React from "react";
 
 const ProcessCard = ({ ...props }: ProcessCardProps) => {
   return (
-    <div className="flex w-[345px] flex-col gap-4 px-[40px] pb-[40px] bg-white">
+    <div className="flex w-[300px] flex-col gap-4 px-[40px] pb-[40px] bg-white">
       <div className="w-full flex justify-center items-center gap-[32px] pl-[20px] ">
         <div>{props.icon}</div>
         <Text

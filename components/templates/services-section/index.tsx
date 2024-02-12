@@ -25,7 +25,7 @@ const ServicesSection = () => {
           />
         </div>
 
-        <div className="w-full flex flex-wrap gap-[66px]">
+        <div className="w-full flex flex-wrap gap-[40px]">
           <ServicesCard
             title="Content Marketing "
             text="Our team creates engaging and shareable content that resonates with your audience, drives organic traffic"
