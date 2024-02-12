@@ -4,20 +4,20 @@ import React from "react";
 const ContactForm = () => {
   return (
     <div className="w-full flex flex-col gap-4">
-      <div className="w-full flex gap-4 jsutify-between">
-        <div className="w-[45%]">
+      <div className="w-full flex lg:flex-row flex-col gap-4 justify-between">
+        <div className="lg:w-[45%] w-full">
           <Input type="text" placeholder="First name" />
         </div>
-        <div className="w-[45%]">
+        <div className="lg:w-[45%] w-full">
           <Input type="text" placeholder="Last name" />
         </div>
       </div>
 
-      <div className="w-full flex gap-4 jsutify-between">
-        <div className="w-[45%]">
+      <div className="w-full flex gap-4 lg:flex-row flex-col justify-between">
+        <div className="lg:w-[45%] w-full">
           <Input type="email" placeholder="Email" />
         </div>
-        <div className="w-[45%]">
+        <div className="lg:w-[45%] w-full">
           <Input type="text" placeholder="Phone Number" />
         </div>
       </div>

@@ -7,8 +7,8 @@ import React from "react";
 const ContactSection = () => {
   return (
     <div className="w-full bg-white flex items-center justify-center my-[100px]">
-      <div className="w-[80%] flex justify-between ">
-        <div className="w-[40%] gap-[40px] flex flex-col">
+      <div className="w-[80%] flex lg:flex-row flex-col justify-between ">
+        <div className="lgw-[40%] w-full gap-[40px] flex flex-col">
           <Text
             color="#000000"
             text="Let’s talk"
@@ -59,7 +59,7 @@ const ContactSection = () => {
           </div>
         </div>
 
-        <div className="w-[50%] p-[45px]">
+        <div className="lg:w-[50%] w-full lg:p-[45px] px-0 py-24">
           <ContactForm />
         </div>
       </div>
