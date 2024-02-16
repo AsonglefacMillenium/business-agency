@@ -9,7 +9,7 @@ import React from "react";
 
 const PortfolioScreen = () => {
   return (
-    <div className="w-full p-0 m-0 pt-[30px]">
+    <div className="w-full p-0 m-0 pt-[20px]">
       <Header2 />
       <PortfolioLander />
       <PortfolioShowcaseSection />

@@ -4,7 +4,7 @@ import React from "react";
 
 const ContactScreen = () => {
   return (
-    <div className="w-full p-0 m-0 pt-[30px]">
+    <div className="w-full p-0 m-0 pt-[20px]">
       <Header2 />
       <ContactSection />
       <Footer />
