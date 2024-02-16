@@ -5,7 +5,7 @@ import React from "react";
 const DetailsLander = () => {
   return (
     <div className="w-full bg-white py-[35px] mb-[100px]">
-      <div className="w-[70%] mx-auto  relative">
+      <div className="lg:w-[70%] w-full mx-auto  relative">
         <div className="w-full rounded-2xl h-[590px]">
           <Image
             src={"/images/image4.jpeg"}
@@ -16,7 +16,7 @@ const DetailsLander = () => {
           />
         </div>
 
-        <div className="w-full flex absolute bottom-[0%] mb-[-30px] z-20 justify-center items-center gap-[45px]">
+        <div className="w-full flex flex-wrap absolute bottom-[8%] lg:bottom-[0%] mb-[-30px] z-20 justify-center items-center gap-[45px]">
           <DetailsCard text="Cloud solution" title="Category:" />
           <DetailsCard text="BrightMedia Solutions" title="Client" />
           <DetailsCard text="August 23, 2023" title="Date:" />
