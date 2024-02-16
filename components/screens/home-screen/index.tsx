@@ -1,4 +1,12 @@
-import { Footer, HiroSection, MissionSection, ProcessSection, ServicesSection, ShowcaseSection, TestimonialSection } from "@/components/templates";
+import {
+  Footer,
+  HiroSection,
+  MissionSection,
+  ProcessSection,
+  ServicesSection,
+  ShowcaseSection,
+  TestimonialSection,
+} from "@/components/templates";
 import React from "react";
 
 const HomeScreen = () => {

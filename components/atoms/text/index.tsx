@@ -82,7 +82,7 @@ const Text = ({ ...props }: ITextProps) => {
         </p>
       );
 
-      case "XXlarge":
+    case "XXlarge":
       return (
         <p
           className="text-5xl"

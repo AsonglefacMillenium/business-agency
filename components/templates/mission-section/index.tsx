@@ -10,7 +10,13 @@ const MissionSection = () => {
     <div className="w-full py-[100px] bg-[#0C0C0C]">
       <div className="lg:w-[80%] w-full mx-auto flex lg:justify-between justify-center items-center">
         <div className="lg:w-[45%] lg:block hidden">
-          <Image alt="" width={500} height={500} src="/images/mission.png" className="w-full"/>
+          <Image
+            alt=""
+            width={500}
+            height={500}
+            src="/images/mission.png"
+            className="w-full"
+          />
         </div>
 
         <div className="lg:w-[45%] w-full flex flex-col gap-8 px-5">

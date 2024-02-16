@@ -1,7 +1,7 @@
 import { Text } from "@/components/atoms";
 import React from "react";
 
-const StatsCard = ({...props}: StatsCardProps) => {
+const StatsCard = ({ ...props }: StatsCardProps) => {
   return (
     <div className="lg:w-[422px] w-full p-[45px] flex flex-col gap-[15px] justify-center items-center ">
       <Text

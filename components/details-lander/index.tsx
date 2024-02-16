@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const DetailsLander = () => {
-  return (
-    <div>DetailsLander</div>
-  )
-}
+  return <div>DetailsLander</div>;
+};
 
-export default DetailsLander
+export default DetailsLander;

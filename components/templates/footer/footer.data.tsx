@@ -31,31 +31,23 @@ export const pageData = [
 ];
 
 export const utilityPageData = [
-    
-        {
-            text: "Style Guide ",
-            route: "/styles"
-    
-        },
+  {
+    text: "Style Guide ",
+    route: "/styles",
+  },
 
-        {
-            text: "Instruction ",
-            route: "/instruction"
-    
-        },
+  {
+    text: "Instruction ",
+    route: "/instruction",
+  },
 
-        {
-            text: "License ",
-            route: "/license"
-    
-        },
+  {
+    text: "License ",
+    route: "/license",
+  },
 
-        {
-            text: "Changelog ",
-            route: "/changelog"
-    
-        },
-
-        
-    
-]
+  {
+    text: "Changelog ",
+    route: "/changelog",
+  },
+];

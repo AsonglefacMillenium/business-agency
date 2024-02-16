@@ -11,8 +11,6 @@ const PortfolioLander = () => {
         fontSize={"XXlarge"}
         fontWeight={"bold"}
       />
-
-      
     </div>
   );
 };

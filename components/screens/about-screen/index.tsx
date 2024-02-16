@@ -1,5 +1,11 @@
 import { Header2 } from "@/components/organisms";
-import { AboutLander, Footer, PortfolioLander, PortfolioShowcaseSection, PortfolioWork, StatsSection, TeamSection } from "@/components/templates";
+import {
+  AboutLander,
+  Footer,
+  PortfolioWork,
+  StatsSection,
+  TeamSection,
+} from "@/components/templates";
 import React from "react";
 
 const AboutScreen = () => {

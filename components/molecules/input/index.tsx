@@ -9,7 +9,7 @@ const Input = ({ ...props }: InputProps) => {
       value={props.value}
       className="w-full text-[#000] outline-none text-xl py-8"
       style={{
-        borderBottom: "1px solid #000000"
+        borderBottom: "1px solid #000000",
       }}
     />
   );

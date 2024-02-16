@@ -1,5 +1,10 @@
 import { Text } from "@/components/atoms";
-import { EmailIcon, FacebookIcon, InstagramIcon, LinkedinIcon } from "@/components/atoms/icons";
+import {
+  EmailIcon,
+  FacebookIcon,
+  InstagramIcon,
+  LinkedinIcon,
+} from "@/components/atoms/icons";
 import ContactItem from "@/components/molecules/contact-item";
 import { ContactForm } from "@/components/organisms";
 import React from "react";

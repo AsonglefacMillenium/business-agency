@@ -1,5 +1,9 @@
 import { Text } from "@/components/atoms";
-import { FacebookIcon, InstagramIcon, LinkedinIcon } from "@/components/atoms/icons";
+import {
+  FacebookIcon,
+  InstagramIcon,
+  LinkedinIcon,
+} from "@/components/atoms/icons";
 import Image from "next/image";
 import React from "react";
 
@@ -7,7 +11,13 @@ const TeamCard = ({ ...props }: TeamCardProps) => {
   return (
     <div className="flex flex-col lg:w-[419px]  w-[90%] mb-10 gap-[16px] h-fit relative cursor-pointer">
       <div className="w-full h-[450px] rounded-xl">
-        <Image width={500} height={500} src={props.image} alt="" className="w-full h-[450px] rounded-xl" />
+        <Image
+          width={500}
+          height={500}
+          src={props.image}
+          alt=""
+          className="w-full h-[450px] rounded-xl"
+        />
       </div>
 
       <div className="w-full  flex flex-col gap-[10px]">
@@ -26,18 +36,18 @@ const TeamCard = ({ ...props }: TeamCardProps) => {
       </div>
 
       <div className="w-fit flex gap-[28px] absolute top-[5%] right-[5%]">
-            <div className="bg-[#FBFBFB] w-[35px] h-[35px] flex items-center justify-center rounded-[100%] cursor-pointer">
-              <FacebookIcon />
-            </div>
+        <div className="bg-[#FBFBFB] w-[35px] h-[35px] flex items-center justify-center rounded-[100%] cursor-pointer">
+          <FacebookIcon />
+        </div>
 
-            <div className="bg-[#FBFBFB] w-[35px] h-[35px] flex items-center justify-center rounded-[100%] cursor-pointer">
-              <InstagramIcon />
-            </div>
+        <div className="bg-[#FBFBFB] w-[35px] h-[35px] flex items-center justify-center rounded-[100%] cursor-pointer">
+          <InstagramIcon />
+        </div>
 
-            <div className="bg-[#FBFBFB] w-[35px] h-[35px] flex items-center justify-center rounded-[100%] cursor-pointer">
-              <LinkedinIcon />
-            </div>
-          </div>
+        <div className="bg-[#FBFBFB] w-[35px] h-[35px] flex items-center justify-center rounded-[100%] cursor-pointer">
+          <LinkedinIcon />
+        </div>
+      </div>
     </div>
   );
 };

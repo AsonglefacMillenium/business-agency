@@ -12,7 +12,13 @@ const TestimonialSection = () => {
       <div className="lg:w-[50%] w-[90%] flex flex-col gap-[21px] items-center mx-auto">
         <div className="flex flex-col items-center gap-[35px] text-center">
           <div className="w-[100px]">
-            <Image alt="" height={500} width={500} src="/images/profile.png" className="w-full" />
+            <Image
+              alt=""
+              height={500}
+              width={500}
+              src="/images/profile.png"
+              className="w-full"
+            />
           </div>
 
           <div className="">
@@ -22,11 +28,9 @@ const TestimonialSection = () => {
               fontSize={"large"}
               fontWeight={"bold"}
             />
-
-           
           </div>
           <div className="flex flex-col gap-[5px] items-center">
-          <Text
+            <Text
               text="Jacqueline Miller"
               color="#0C0C0C"
               fontSize={"large"}
