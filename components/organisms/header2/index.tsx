@@ -71,7 +71,7 @@ const Header2 = () => {
           className="w-full lg:hidden h-screen fixed right-0 top-0 flex justify-between pr-3 "
           style={{ backgroundColor: "rgba(0, 0, 0, 0.8)" }}
         >
-          <div className="w-[50%] flex flex-col bg-white h-screen px-5 py-20 gap-16">
+          <div className="w-[70%] flex flex-col bg-white h-screen px-5 py-20 gap-16">
             <div className="lg:flex lg:hidden gap-16 flex flex-col w-full items-center">
               <Link href={"/"}>
                 <Text
