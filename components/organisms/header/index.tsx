@@ -14,7 +14,7 @@ const Header = () => {
           fontWeight={"bold"}
         />
       </div>
-      <div className="lg:flex lg:visible gap-[30px] invisible">
+      <div className="lg:flex lg:flex gap-[30px] hidden">
         <Link href={"/"}>
           <Text
             color="#FBFBFB"
@@ -43,7 +43,7 @@ const Header = () => {
         </Link>
       </div>
 
-      <Link href={""} className="lg:visible invisible">
+      <Link href={""} className="lg:flex hidden">
         <Button text="Get in touch" bgColor="#fff" color="#000" onClick={() => {}} />
       </Link>
     </div>
