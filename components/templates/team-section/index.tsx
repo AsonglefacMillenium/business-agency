@@ -19,17 +19,17 @@ const TeamSection = () => {
           <TeamCard
             title="Esther Howards"
             text="Founder & CEO"
-            image="/images/image1.jpeg"
+            image="/images/social1.png"
           />
           <TeamCard
             title="Esther Howards"
             text="Founder & CEO"
-            image="/images/image1.jpeg"
+            image="/images/social2.png"
           />
           <TeamCard
             title="Esther Howards"
             text="Founder & CEO"
-            image="/images/image1.jpeg"
+            image="/images/social3.png"
           />
         </div>
       </div>

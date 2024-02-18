@@ -38,6 +38,15 @@ const Header2 = () => {
           />
         </Link>
 
+        <Link href={"/portfolio"}>
+          <Text
+            color="#000"
+            text="Portfolio"
+            fontSize={"normal"}
+            fontWeight={"400"}
+          />
+        </Link>
+
         <Link href={"/contact"}>
           <Text
             color="#000"
@@ -91,6 +100,14 @@ const Header2 = () => {
                 />
               </Link>
 
+              <Link href={"/portfolio"}>
+                <Text
+                  color="#000"
+                  text="Portfolio"
+                  fontSize={"large"}
+                  fontWeight={"400"}
+                />
+              </Link>
               <Link href={"/contact"}>
                 <Text
                   color="#000"

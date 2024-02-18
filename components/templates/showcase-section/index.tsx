@@ -25,7 +25,7 @@ const ShowcaseSection = () => {
             <ProjectsCard
               text="Creative  UI design"
               title="Web UI design"
-              image="/images/image1.jpeg"
+              image="/images/image2.jpeg"
             />
           </div>
 
@@ -42,12 +42,12 @@ const ShowcaseSection = () => {
             <ProjectsCard
               text="Creative  UI design"
               title="Web UI design"
-              image="/images/image1.jpeg"
+              image="/images/image3.jpeg"
             />
             <ProjectsCard
               text="Creative  UI design"
               title="Web UI design"
-              image="/images/image1.jpeg"
+              image="/images/image4.jpeg"
             />
           </div>
         </div>
