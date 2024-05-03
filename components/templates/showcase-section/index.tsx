@@ -45,8 +45,8 @@ const ShowcaseSection = () => {
               image="/images/image3.jpeg"
             />
             <ProjectsCard
-              text="Creative  UI design"
-              title="Web UI design"
+              text="Creative  Web developement"
+              title="Web development"
               image="/images/image4.jpeg"
             />
           </div>
